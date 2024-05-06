@@ -16,7 +16,7 @@ class ClockSync:
         self.get_clock_timer = reactor.register_timer(self._get_clock_event)
         #self.get_clock_cmd = self.cmd_queue = None
         self.queries_pending = 0
-        self.mcu_freq = 1.
+        fself.mcu_freq = 1.
         self.last_clock = 0
         self.clock_est = (0., 0., 0.)
         # Minimum round-trip-time tracking
